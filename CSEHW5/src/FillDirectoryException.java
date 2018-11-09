@@ -1,18 +1,18 @@
 /**
  * 
- * The <code>IllegalElementException</code> class 
+ * The <code>FillDirectoryException</code> class 
  * 
  * @author Vivian Yee
  * 		e-mail: vivian.yee@stonybrook.edu
  * 		Stonybrook ID: 112145534
  */
-public class IllegalElementException extends Exception {
-	public IllegalElementException()
+public class FillDirectoryException extends Exception {
+	public FillDirectoryException()
     {  //Default message
         super("Invalid element used as method parameter.");
     }
 
-    public IllegalElementException(String message)
+    public FillDirectoryException(String message)
     {   //Passed message
         super(message);
     }	
